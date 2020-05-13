@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height:70px;
+    background-color: black;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    }
+ul li{
+    float: left;
+    list-style: none;
+}
+
+ul{
+    padding: 12px;
+    float:right;
+}
+.header-f img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.sec_2 p{
+    font-size:5em;
+}
+
+@media (max-width:375px)
+{
+    .sec-2{
+        
+    }
+}

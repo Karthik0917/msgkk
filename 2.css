@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    height:600px;
+
+}
+.section2{
+    
+    height: 200px;
+    background-color: tomato;
+  
+}
+
+@media only screen and (max-width: 375px) {
+    .section1{
+        height: 200px;
+      
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .section1{
+        height: 200px;
+      
+    }
+  }
+.clear{
+    clear: both;
+}
+.navsection{
+    color:white;
+}   

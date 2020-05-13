@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.set img{
+    max-height: 800px;
+    width: 100%; ;
+    object-fit: cover;
+}
+.set{
+    display:inline;
+}
+.sec_2{
+    background-color: indigo;
+    height: 400px;
+    max-width:100%;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    }
+
+.sec_3{
+    height: 400px;
+}
+
+.set{
+    height: 400px;
+    margin-top: 20px;
+    width:100% ;
+    
+    }
+
+    @media (min-width:800px){
+        .sec_3 img{
+            height:400px;
+            object-fit:cover;
+        }
+    }
+
+    @media (max-width:375px)
+    {
+        .sec_2{
+            height: 200px;
+            width: 
+            }
+        
+    }
